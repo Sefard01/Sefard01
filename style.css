@@ -1,0 +1,373 @@
+*{
+  padding: 0;
+  margin: 0;
+  
+ font-family: "Poppins";
+ font-style:normal;
+ font-weight: 700;
+}
+
+a{ text-decoration: none}
+.body{
+  background-image: url("signin.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.outer{
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  background-color: #364653;
+}
+.inner{
+  height: 45vh;
+  width: 100%;
+ 
+  border-radius: 30px 30px 0px  0px ;
+  background-color: #FFFFFF;
+  display: flex;
+  position: absolute;
+justify-content: center;
+  bottom: 0;
+}
+.contant{
+  height: auto;
+  width: 80%;
+  margin-top: 30px;
+  
+}
+#signHeading{
+  
+}
+#SignPara{
+  margin-top: 30px;
+  width: 200px;
+  color:#80818C;
+}
+.SignBtn{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.signbtn{
+  padding: 10px 45px 10px 45px;
+  font-weight: bold;
+  border: 1px solid #364653;
+  color: #364653;
+  border-radius: 5px;
+}
+.signbtn a{
+  color: #364653;
+  text-decoration: none;
+}
+.signbtn a:hover{
+  color: #fff;
+}
+
+.signbtn:hover{
+  border: 1px solid #364653;
+  color: #fff;
+  background-color: #364653;
+}
+
+/* sign in page CSS*/
+
+.innerSignin {
+  height: 60vh;
+  width: 100%;
+
+  border-radius: 30px 30px 0px 0px;
+  background-color: #FFFFFF;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  bottom: 0;
+}
+
+.contantSin{
+  margin: 20px 0 0 20px;
+  width:100%;
+  
+}
+.signinput{
+  height:45px;
+  width: 310px;
+  background-color: #899BAA;
+  color :white;
+  border:none;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.signpara{
+  margin-top: 20px;
+  font-size: 10px;
+}
+.signupbtn{
+  padding: 10px 40px 10px 40px;
+    color: #fff;
+    margin-top: 20px;
+    width: 320px;
+    background-color: #364653;
+    border:none;
+    border-radius: 5px;
+}
+
+.signupP{
+  text-align: center;
+  font-size: 15px;
+  color:#6A7986;
+  margin: 10px;
+}
+/* catagory page CSS */
+
+.Cheading{
+  margin: 70px 0px 20px 20px;
+  width: 300px;
+}
+.outerC{
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px 0px 0px 20px;
+  padding: 20px;
+  border: 2px solid gray;
+  height: 200px;
+  width: 300px;
+  
+}
+.cetagory{
+  padding: 5px 20px 5px 20px;
+  border: 1px solid #364653;
+  border-radius: 50px;
+  margin: 3px;
+  color:#364653;
+  background: transparent;
+}
+.cetagory:hover{
+  color:#fff;
+  background-color: #364653;
+}
+ .Cbtn{
+   margin-top: 300px;
+ }
+ .Cbtna{
+   display: flex;
+   justify-content: center;
+ }
+
+/*home page css*/
+#home-body{
+  background-color: #E3E3E3;
+}
+
+.outerH{
+  height:auto;
+  width: 90vw;
+  margin: 20px;
+ 
+}
+
+nav{ 
+  margin: 5px 0px 10px 0px;
+  display: flex;
+  align-items: center;
+}
+.profile{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-image: url("me.png");
+  background-size: cover;
+}
+
+nav p{
+  width: 60px;
+  font-size: 10px;
+  margin-left: 5px;
+}
+.Searchinput{
+  width: 95%;
+  height: 35px;
+  padding-left: 10px;
+  border: none;
+ border-radius: 5px;
+ background-color: #C9CAD3;
+ color: #5C4591;
+}
+.popular-books{
+  margin-top: 20px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popular-books h1{
+  
+  font-weight:500;
+  font-size: 20px;
+}
+
+.popular-books a{
+  color:#523080;
+  font-weight:500;
+  font-size: 10px;
+  border:1px solid #9DA2D5;
+  border-radius: 15px;
+  padding:5px;
+}
+
+.Pbooks{
+  height: 220px;
+  max-width:100vw;
+  display: flex;
+  overflow-x: scroll ;
+ 
+  
+}
+a{
+  color: black;
+}
+.book{
+  height: 190px;
+  width: 120px;
+  margin:10px;
+}
+
+
+.BC{
+  height: 160px;
+  width: 120px;
+border-radius: 0px 10px 10px 0px;
+  background-color: black;  
+ 
+  background-size: cover;
+}
+.BC1{
+  height: 160px;
+  width: 120px;
+border-radius: 0px 10px 10px 0px;
+  background-color: black;  
+  background-image: url("bc1.png");
+  background-size: cover;
+}
+.one{
+  background-image: url("bc1.png");
+}
+.two{
+  background-image: url("bc2.jpeg");
+}
+.three{
+  background-image: url("bc3.webp");
+}
+.four{
+  background-image: url("bc4.webp");
+}
+.five{
+  background-image: url("bc5.jpeg");
+}
+
+.six{
+  background-image: url("bc6.jpeg");
+}
+
+.fivteen{
+  background-image: url("bc15.jpeg");
+}
+.seven {
+  background-image: url("bc7.jpeg");
+}
+.eight {
+  background-image: url("bc8.jpeg");
+}
+.nine {
+  background-image: url("bc9.jpeg");
+}
+.ten {
+  background-image: url("bc10.jpg");
+}
+.eleven{
+  background-image: url("bc11.jpeg");
+}
+.twelb {
+  background-image: url("bc12.jpeg");
+}
+.thirteen {
+  background-image: url("bc13.jpeg");
+}
+.fourteen {
+  background-image: url("bc14.jpeg");
+}
+
+
+
+.title{
+  font-size:12px ;
+  margin-top: 5px;
+}
+.book-discription{
+  font-size: 10px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.section{
+  height: 300px;
+  width:100vw;
+  padding-top: 10px;
+  overflow: auto;
+}
+#Hheading{
+  margin:0px 0px 10px 20px;
+  font-weight: 400;
+}
+.contaier{
+  height: 75px;
+  width:90vw;
+  color:#262B33;
+  margin:10px 0px 10px 5vw ;
+  border-radius: 15px;
+  background-color: #9B9DB2;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Bimg{
+  
+  height : 60px;
+  width: 60px;
+  border-radius: 4px;
+ 
+ background-size: cover;
+  
+}
+.discription{
+  width: 150px;
+  
+}
+
+
+
+/*home footer*/
+.footer{
+  height: 50px;
+  width:100vw ;
+  display :flex;
+  justify-content: space-around;
+  background-color: #364653;
+  position:sticky;
+  bottom: 0;
+}
+.footer .box{
+  margin-top: 10px;
+  text-align: center;
+  color : white;
+  
+}
+.footer p{
+  font-size: 10px;
+}
+
