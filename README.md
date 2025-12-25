@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Himanshu Singh</h1>
-<h3 align="center">A am a Artist to show my Art only .</h3>
+<h3 align="center">A am an Artist to show my Art only .</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sefard01&label=Profile%20views&color=0e75b6&style=flat" alt="sefard01" /> </p>
 
